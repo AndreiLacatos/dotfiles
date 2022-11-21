@@ -1,0 +1,15 @@
+# media keys
+XF86Audio{Prev,Next}
+  playerctl {previous,next}
+
+XF86AudioPlay
+  playerctl play-pause
+
+XF86AudioRaiseVolume
+  playerctl volume 0.1+
+
+XF86AudioLowerVolume
+  playerctl volume 0.1-
+ 
+XF86AudioMute
+  playerctl volume 0
