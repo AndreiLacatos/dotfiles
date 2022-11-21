@@ -9,5 +9,5 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 neofetch
-alias config='/usr/bin/git --git-dir=/home/gkap/.dotfiles/ --work-tree=/home/gkap'
+alias dotfiles='/usr/bin/git --git-dir=/home/gkap/.dotfiles/ --work-tree=/home/gkap'
 
